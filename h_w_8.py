@@ -17,10 +17,10 @@ class Car(passengerCar):
         super().info()
         print('Freight car')
 
-
 audi = Car('Audi', 'A6 1.8', 2015)
 bmw = Car('BMW', '320i', 2010)
 
 audi.info()
 bmw.info_car()
 audi.foo()
+
