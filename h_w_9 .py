@@ -5,7 +5,6 @@ class passengerCar():
     def info(self):
         print('Vehicle up to 3.5 tons and up to 8 passengers')
 
-
 class Car(passengerCar):
 
     def __init__(self, weight: int = 0,  name: str = 'no name', model: str = 'no name', age: int = 1900):
