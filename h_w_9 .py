@@ -29,6 +29,7 @@ class Car(passengerCar):
     @classmethod
     def metod(cls):
         print('Something is going on')
+        
 audi = Car(4000, 'Audi', 'A6 1.8', 2015)
 bmw = Car(2000, 'BMW', '320i', 2010)
 
