@@ -1,9 +1,9 @@
-class passengerCar():
+class PassengerCar():
 
     def info(self):
         print('Vehicle up to 3.5 tons and up to 8 passengers')
 
-class Car(passengerCar):
+class Car(PassengerCar):
 
     def __init__(self, name: str = 'no name', model: str = 'no name', age: int = 1900):
         self.name = name
@@ -13,7 +13,7 @@ class Car(passengerCar):
     def info_car(self):
         print('My', self.name, self.model, 'has', self.age, 'age')
 
-    def foo(passenger_car):
+    def foo(PassengerCar):
         super().info()
         print('Freight car')
 
