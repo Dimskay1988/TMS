@@ -1,4 +1,4 @@
-def calculator(s: str, num1: float, num2: float) -> float:
+def calculator(s: str, num_1: float, num_2: float) -> float:
     """Простейший калькулятор"""
     while True:
         s = input('Введите действие (+,-,/,*): ')
